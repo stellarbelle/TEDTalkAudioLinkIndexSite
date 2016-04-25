@@ -1,0 +1,9 @@
+{
+  "name": "ted-web-scrape",
+  "dependencies": {
+    "cheerio": "latest",
+    "express": "^4.13.4",
+    "request": "latest",
+    "url-parse": "^1.0.5"
+  }
+}

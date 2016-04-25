@@ -1,17 +1,3 @@
-//option 1
-//first extractor gets Talk URLs
-//second extractor gets Download URLs
-//third extractor gets info if "audio" is available
-
-//option 2
-//crawler with a depth of 2, pages 3, first exclude all links but Talks links, second exclude all links but Download links
-//feed into an extractor and get "audio" data
-
-//https://www.smashingmagazine.com/2015/04/web-scraping-with-nodejs/
-//http://www.opensearchserver.com/documentation/faq/crawling/how_to_extract_specific_information_from_web_pages.md
-//https://scotch.io/tutorials/scraping-the-web-with-node-js
-//http://www.netinstructions.com/how-to-make-a-simple-web-crawler-in-javascript-and-node-js/
-
 var request = require('request');
 var cheerio = require('cheerio');
 var URL = require('url-parse');
